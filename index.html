@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> 
+    <!-- CSS -->
     <link rel="stylesheet" href="./estilos.css/style.css">
     <title>TiendAnimales</title>
     <meta name="description" content="">
 </head>
 <body>
-
+     <!-- LOS COMENTARIOS , DESPUES DE TERMINAR SI QUERES LOS BORRAMOS -->
     <header class="header">
          <div class="container-fluid">
             <div class="row">
@@ -55,5 +57,60 @@
          </div>
      </header>
 
+    
+    <!-- SECCION DE PRODUCTOS -->
+    <section class="section p-5" style="background-color: rgb(253, 204, 211);">
+        <div class="section-container container text-center">
+            <!---->
+            <div class="section-container-row row">
+                <!-- NO PUEDO HACER QUE ME QUEDEN BIEN REDONAS LAS IMAGENES CON BOOTSRAP (TAMPOCO TENGO LAS IMG QUE ESTAN EN EL DISENO DE JOSE) -->
+                <div style="background-color: red;" class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-right">
+                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
+                    <div class="card-body">ALIMENTOS</div>
+                </div>
+                <!---->
+                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-up">
+                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
+                    <div class="card-body">HIGIENE Y BELLEZA</div>
+                </div>
+                <!---->
+                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-left">
+                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
+                    <div class="card-body">SNACKS Y GOLOSINAS</div>
+                </div>
+                <!---->
+            </div>
+            <!---->
+            <div class="section-container-row row">
+                <!---->
+                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-right">
+                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
+                    <div class="card-body">JUGUETES</div>
+                </div>
+                <!---->
+                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-up">
+                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
+                    <div class="card-body">COMEDORES Y BEBEDEROS</div>
+                </div>
+                <!---->
+                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-left">
+                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
+                    <div class="card-body">CORREAS Y COLLARES</div>
+                </div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class='right-page-btn'><a href="#" class='right-page-btn-txt'></a></div>
+        </div>
+    </section>
+    
+    
+    <!-- ACA ABAJO ESTAN LOS CDN DE LAS LIBRERIAS (AOS Y BOOTSRAP (JS CDN) ) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init()</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
 </html>
