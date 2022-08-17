@@ -28,3 +28,33 @@
 .btn_agendar {
   margin-top: 100px;
 }
+
+
+
+/** SECCION PRODUCTOS **/
+.right-page-btn {
+  display: inline-flex; border-radius: 50px; box-shadow: 0px 5px 10px -1px;
+  height: 50px; width: 200px; margin: 10px;
+  perspective: 1000px;
+}
+.right-page-btn-txt {
+  font-family: 'Montserrat', sans-serif; font-size: 15px; letter-spacing: 1px;
+  transition: transform .25s; transform: translateZ(-25px); transform-style: preserve-3d;
+}
+.right-page-btn-txt:before,
+.right-page-btn-txt:after {
+  display: flex; align-items: center; justify-content: center; position: absolute;
+  border: 1px solid #000; border-radius: 5px;
+  box-sizing: border-box;
+  height: 50px; width: 200px;
+  content: "VER MAS";
+}
+.right-page-btn-txt:before {
+  background: #ffff; color: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.right-page-btn-txt:after {
+  transform: rotateX(90deg) translateZ(25px);
+  background: #000; color: #ffff;
+}
+.right-page-btn-txt:hover{transform: translateZ(-25px) rotateX(-90deg);}
