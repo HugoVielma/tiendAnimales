@@ -71,34 +71,13 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   margin-left: auto;
   margin-right: auto;
 }
-.hero {
-  width: 100%;
-  height: auto;
-}
-.titulo_hero {
-  color: rgb(144, 214, 35);
-  position: relative;
-  font-size: 125px;
-  text-shadow: 5px 5px 5px #000;
-  margin-top: 6rem;
-}
-.container_btn {
-  height: 60px;
-}
+
 .btn_agendar {
   height: auto;
   background-color: rgb(144, 214, 35);
   border-radius: 0.5rem;
 }
-.hero_img {
-  width: 300px;
-  margin-bottom: 3rem;
-  filter: opacity(100%);
-}
-.img_dog {
-  border-radius: 4rem;
-  box-shadow: 10px 10px 10px transparent;
-}
+
 .parrafo_main {
   border-radius: 1rem;
 }
