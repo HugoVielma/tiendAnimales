@@ -3,7 +3,9 @@
 #EF323E imperial red
 #FF7711 pumpkin */
 
-/* la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupamos por eso*/
+/* rgb(0, 205, 247) azul */
+/*#90D623 
+la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupamos por eso*/
 * {
   margin: 0;
   padding: 0;
@@ -11,21 +13,101 @@
 }
 .header {
   width: 100%;
+  height: 100%;
   background-color: #ff7711;
   position: relative;
   display: flex;
 }
+.contenedor_fila {
+  height: 110px;
+}
 
+.container__img {
+  display: flex;
+  width: 220px;
+  height: 111%;
+  margin-bottom: 1rem;
+  margin-left: 50px;
+}
+.container__logo {
+  height: 150px;
+}
 .logo_tienda {
-  width: 250px;
-  margin-left: 15px;
+  width: 300px;
+  height: 100%;
+  justify-content: center;
+}
+.contenedor_header {
+  height: 150px;
+}
+.container__nav {
+  height: 160px;
+  background-color: #ff7711;
 }
 .header_list {
   display: flex;
-  margin-right: 50px;
+  margin-left: auto;
   margin: auto;
   padding: 50px 0;
 }
+.nav-item {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.nav-link {
+  border-radius: 0.5rem;
+  background-color: rgb(144, 214, 35);
+  color: white;
+}
+.section_hero {
+  max-width: 100%;
+  height: 85vh;
+  background-image: url("../img/lovely-pet-portrait-isolated.jpg");
+  display: flex;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero {
+  width: 100%;
+  height: auto;
+}
+.titulo_hero {
+  color: rgb(144, 214, 35);
+  position: relative;
+  font-size: 125px;
+  text-shadow: 5px 5px 5px #000;
+  margin-top: 6rem;
+}
+.container_btn {
+  height: 60px;
+}
 .btn_agendar {
-  margin-top: 100px;
+  height: auto;
+  background-color: rgb(144, 214, 35);
+  border-radius: 0.5rem;
+}
+.hero_img {
+  width: 300px;
+  margin-bottom: 3rem;
+  filter: opacity(100%);
+}
+.img_dog {
+  border-radius: 4rem;
+  box-shadow: 10px 10px 10px transparent;
+}
+.parrafo_main {
+  border-radius: 1rem;
+}
+.img_main {
+  width: 400px;
+}
+.parrafo_main {
+  border-radius: 16rem;
+}
+.parrafo_main {
+  margin-left: 100px;
 }
