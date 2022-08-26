@@ -64,22 +64,32 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   max-width: 100%;
   height: 85vh;
   background-image: url("../img/lovely-pet-portrait-isolated.jpg");
-  display: flex;
+  display: block;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
-.btn_agendar {
-  height: auto;
-  background-color: rgb(144, 214, 35);
-  border-radius: 0.5rem;
+.section_hero:hover.middle {
+  opacity: 1;
 }
-
-.parrafo_main {
+.parrafo_hover {
   border-radius: 1rem;
+  background-color: rgb(144, 214, 35);
+  color: white;
+  font-size: 21px;
+  padding: 16px 32px;
+  position: absolute;
 }
 .img_main {
   width: 400px;
