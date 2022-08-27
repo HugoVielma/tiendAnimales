@@ -37,70 +37,43 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   height: 100%;
   justify-content: center;
 }
-.contenedor_header {
-  height: 150px;
-}
 .container__nav {
   height: 160px;
   background-color: #ff7711;
-}
-.header_list {
-  display: flex;
-  margin-left: auto;
-  margin: auto;
-  padding: 50px 0;
 }
 .nav-item {
   display: flex;
   margin-left: 1rem;
 }
-
 .nav-link {
   border-radius: 0.5rem;
   background-color: rgb(144, 214, 35);
   color: white;
 }
+.btn__navbar {
+  position: relative;
+}
 .section_hero {
   max-width: 100%;
   height: 85vh;
   background-image: url("../img/lovely-pet-portrait-isolated.jpg");
-  display: flex;
+  display: block;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
 }
-.hero {
-  width: 100%;
-  height: auto;
-}
-.titulo_hero {
+.titulo__hero {
+  position: absolute;
+  margin-top: -50px;
   color: rgb(144, 214, 35);
-  position: relative;
-  font-size: 125px;
-  text-shadow: 5px 5px 5px #000;
-  margin-top: 6rem;
 }
-.container_btn {
-  height: 60px;
-}
-.btn_agendar {
-  height: auto;
-  background-color: rgb(144, 214, 35);
-  border-radius: 0.5rem;
-}
-.hero_img {
-  width: 300px;
-  margin-bottom: 3rem;
-  filter: opacity(100%);
-}
-.img_dog {
-  border-radius: 4rem;
-  box-shadow: 10px 10px 10px transparent;
-}
-.parrafo_main {
-  border-radius: 1rem;
+.parrafo__hero {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 30px;
+  color: rgb(144, 214, 35);
 }
 .img_main {
   width: 400px;
@@ -110,4 +83,11 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 }
 .parrafo_main {
   margin-left: 100px;
+}
+.lis_icono {
+  display: flex;
+  margin-left: 2rem;
+}
+.icons {
+  padding-left: 5em;
 }
