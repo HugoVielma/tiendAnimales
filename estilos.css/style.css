@@ -8,53 +8,80 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header {
-  width: 100%;
-  background-color: #ff7711;
-  position: relative;
-  display: flex;
-}
 
-.logo_tienda {
-  width: 250px;
-  margin-left: 15px;
-}
-.header_list {
-  display: flex;
-  margin-right: 50px;
-  margin: auto;
-  padding: 50px 0;
-}
-.btn_agendar {
-  margin-top: 100px;
-}
+/** productos **/
+.section-products {background-image: url(./img/playing-puppies-g56a7ca33f_1920.jpg); background-size: cover;}
+.card-products {box-shadow: 0px 10px 20px -1px #000}
+.container-products {display: flex; justify-content: space-evenly; flex-wrap: wrap;}
+.img-products:hover {transform: translateY(-3px); box-shadow: 0px 5px 15px -5px #000;}
+.img-1 {background-image: url(./img/cat-food.png); background-position: center; background-size: cover;}
+.img-2 {background-image: url(./img/perro-salchica.png); background-position: center; background-size: cover;}
+.img-3 {background-image: url(./img/snacks.png); background-position: center; background-size: cover;}
+.img-4 {background-image: url(./img/toys.png); background-size: cover;}
+.img-5 {background-image: url(./img/platito.png); background-position: center; background-size: cover;}
+.img-6 {background-image: url(./img/correa.png); background-size: cover;}
+
+/** servicios **/
+.section-servicios-container {background-image: url(./img/p.png); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;}
+.section-servicios-container-subcontainer {background-color: rgb(253, 204, 211); display: flex; justify-content: center; align-items: center;}
 
 
 
-/** SECCION PRODUCTOS **/
-.right-page-btn {
-  display: inline-flex; border-radius: 50px; box-shadow: 0px 5px 10px -1px;
-  height: 50px; width: 200px; margin: 10px;
-  perspective: 1000px;
+/** MOBILE **/
+@media screen and (min-width: 300px) {
+    /*PRODUCTOS*/
+    .section-products-title {font-size: 15px;}
+    .card-products {width: 50vw; padding: 5px; margin: 5px;}
+    .card-img-top {height: 20vh;}
+    .card-title {font-size: 15px;}
+
+    /** servicios **/
+    .section-servicios-container {padding: 20px; margin: 10px; text-align: center;}
+    .section-servicios-container-subcontainer {flex-direction: column;}
+    .section-servicios-container-img {height: 100%; width: 100%; padding: 10px;}
 }
-.right-page-btn-txt {
-  font-family: 'Montserrat', sans-serif; font-size: 15px; letter-spacing: 1px;
-  transition: transform .25s; transform: translateZ(-25px); transform-style: preserve-3d;
+
+/** TABLET **/
+@media screen and (min-width: 580px) {
+    /*PRODUCTOS*/
+    .section-products-title {font-size: 15px;}
+    .card-products {width: 30vw; padding: 5px; margin: 10px;}
+    .card-img-top {height: 20vh;}
+    .card-title {font-size: 15px;}
+
+  /** servicios **/
+  .section-servicios-container {margin: 10px; text-align: center;}
+  .section-servicios-container-subcontainer {flex-direction: row;}
+  .section-servicios-container-subcontainer-izq {width: 24vw;}
+  .section-servicios-container-img {height: 50vh; width: 40vw;}
 }
-.right-page-btn-txt:before,
-.right-page-btn-txt:after {
-  display: flex; align-items: center; justify-content: center; position: absolute;
-  border: 1px solid #000; border-radius: 5px;
-  box-sizing: border-box;
-  height: 50px; width: 200px;
-  content: "VER MAS";
+
+/** TABLET **/
+@media screen and (min-width: 760px) {
+    /*PRODUCTOS*/
+    .section-products-title {font-size: 15px;}
+    .card-products {width: 50vw; padding: 5px; margin: 10px;}
+    .card-img-top {height: 15vh;}
+    .card-title {font-size: 15px;}
+
+  /** servicios **/
+  .section-servicios-container {margin: 10px; text-align: center;}
+  .section-servicios-container-subcontainer {flex-direction: row;}
+  .section-servicios-container-subcontainer-izq {width: 30vw;}
+  .section-servicios-container-img {height: 30vh; width: 50vw;}
 }
-.right-page-btn-txt:before {
-  background: #ffff; color: #000;
-  transform: rotateY(0deg) translateZ(25px);
+
+/** LAPTOP **/
+@media screen and (min-width: 1024px) {
+    /*PRODUCTOS*/
+    .section-products-title {font-size: 15px;}
+    .card-products {width: 21vw; padding: 5px;}
+    .card-img-top {height: 25vh;}
+  
+
+  /** servicios **/
+  .section-servicios-container {margin: 10px; text-align: center;}
+  .section-servicios-container-subcontainer {flex-direction: row;}
+  .section-servicios-container-subcontainer-izq {width: 20vw;}
+  .section-servicios-container-img {height: 50vh; width: 40vw;}
 }
-.right-page-btn-txt:after {
-  transform: rotateX(90deg) translateZ(25px);
-  background: #000; color: #ffff;
-}
-.right-page-btn-txt:hover{transform: translateZ(-25px) rotateX(-90deg);}
