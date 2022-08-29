@@ -9,6 +9,30 @@
   box-sizing: border-box;
 }
 
+.logotipo {
+  width: 250px;
+}
+.color_fondo {
+  background-color: #ff7711;
+}
+.icon {
+  width: 30px;
+  margin: 10px 5px;
+}
+.altura-a-b {
+  padding: 100px 0;
+}
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  bottom: 20px;
+  left: 2.5%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+
 /** productos **/
 .section-products {background-image: url(./img/playing-puppies-g56a7ca33f_1920.jpg); background-size: cover;}
 .card-products {box-shadow: 0px 10px 20px -1px #000}
