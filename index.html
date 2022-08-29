@@ -12,100 +12,96 @@
     <meta name="description" content="">
 </head>
 <body>
-     <!-- LOS COMENTARIOS , DESPUES DE TERMINAR SI QUERES LOS BORRAMOS -->
-    <header class="header">
-         <div class="container-fluid">
-            <div class="row">
-              <div class="col-3">
-                <a href=""><img src="./img/logo_tiendannimales.jpg" alt="" class="logo_tienda"></a>
-              </div>
-              <div class="col-7">
-                <nav class="navbar navbar-expand-sm navbar-light">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon"></span>
-                         </button>
-                       <div class="collapse navbar-collapse navbarNav" id="navbarNav">
-                         <ul class="navbar-nav header_list">
-                           <li class="nav-item">
-                            <a class="nav-link"  href="">Quienes Somos</a>
-                           </li>
-                           <li class="nav-item">
-                            <a class="nav-link" href="">Perros</a>
-                           </li>
-                           <li class="nav-item">
-                            <a class="nav-link" href="">Gatos</a>
-                           </li>
-                           <li class="nav-item">
-                            <a class="nav-link" href="">Barberia Canina</a>
-                           </li>
-                           <li class="nav-item">
-                            <a class="nav-link" href="">Otros Productos</a>
-                           </li>
-                           <li class="nav-item">
-                            <a class="nav-link" href="">Contacto</a>
-                           </li>
-                        </ul>
-                      </div>
-                  </div>  
-               </nav>
-              </div>
-              <div class="col-2">
-                <button type="" class="btn_agendar" src="" value="enviar">Agenda tu Cita</button>
-              </div>
-           </div>
-         </div>
-     </header>
-
+    
     
     <!-- SECCION DE PRODUCTOS -->
-    <section class="section p-5" style="background-color: rgb(253, 204, 211);">
-        <div class="section-container container text-center">
-            <!---->
-            <div class="section-container-row row">
-                <!-- NO PUEDO HACER QUE ME QUEDEN BIEN REDONAS LAS IMAGENES CON BOOTSRAP (TAMPOCO TENGO LAS IMG QUE ESTAN EN EL DISENO DE JOSE) -->
-                <div style="background-color: red;" class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-right">
-                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
-                    <div class="card-body">ALIMENTOS</div>
-                </div>
-                <!---->
-                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-up">
-                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
-                    <div class="card-body">HIGIENE Y BELLEZA</div>
-                </div>
-                <!---->
-                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-left">
-                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
-                    <div class="card-body">SNACKS Y GOLOSINAS</div>
-                </div>
-                <!---->
-            </div>
-            <!---->
-            <div class="section-container-row row">
-                <!---->
-                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-right">
-                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
-                    <div class="card-body">JUGUETES</div>
-                </div>
-                <!---->
-                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-up">
-                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
-                    <div class="card-body">COMEDORES Y BEBEDEROS</div>
-                </div>
-                <!---->
-                <div class="col card shadow-lg p-3 mb-5 bg-body rounded p-3 mb-5 bg-body rounded pt-3 m-5" data-aos="fade-left">
-                    <img src="./img/food.png" class="card-img-top rounded-circle rounded-5" alt="...">
-                    <div class="card-body">CORREAS Y COLLARES</div>
-                </div>
-                <!---->
-            </div>
-            <!---->
-        </div>
+    <section class="section-products p-5">
+
         <div class="d-flex justify-content-center">
-            <div class='right-page-btn'><a href="#" class='right-page-btn-txt'></a></div>
+            <div class="section-products-title bg-dark p-1 text-white text-center rounded-5">NUESTROS PRODUCTOS</div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="row-container container-products">
+                <!-- card -->    
+                <div class="card card-products rounded-2 text-center" style="background-color: rgb(253, 204, 211);">
+                    <a href="#"><div class="card-img-top img-products img-1 rounded-2"></div></a>
+                    <div class="card-body">
+                        <h5 class="card-title bg-dark text-white p-1 rounded-2 shadow-lg">alimento</h5>
+                    </div>
+                </div>
+            
+                <!-- card -->    
+                <div class="card card-products text-center" style="background-color: rgb(253, 204, 211);">
+                    <a href="#"><div class="card-img-top img-products img-2 rounded-2"></div></a>
+                    <div class="card-body">
+                        <h5 class="card-title bg-dark text-white p-1 rounded-2 shadow-lg">higiene y belleza</h5>
+                    </div>
+                </div>
+
+                <!-- card -->    
+                <div class="card card-products text-center" style="background-color: rgb(253, 204, 211);">
+                    <a href="#"><div class="card-img-top img-products img-3 rounded-2"></div></a>
+                    <div class="card-body">
+                        <h5 class="card-title bg-dark text-white p-1 rounded-2 shadow-lg">snacks y golosinas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row-container container-products">
+                <!-- card -->    
+                <div class="card card-products text-center" style="background-color: rgb(253, 204, 211);">
+                    <a href="#"><div class="card-img-top img-products img-4 rounded-2"></div></a>
+                    <div class="card-body">
+                        <h5 class="card-title bg-dark text-white p-1 rounded-2 shadow-lg">Juguetes</h5>
+                    </div>
+                </div>
+            
+                <!-- card -->    
+                <div class="card card-products text-center" style="background-color: rgb(253, 204, 211);">
+                    <a href="#"><div class="card-img-top img-products img-5 rounded-2"></div></a>
+                    <div class="card-body">
+                        <h5 class="card-title bg-dark bg-gradient text-white p-1 rounded-2 shadow-lg">Platitos</h5>
+                    </div>
+                </div>
+
+                <!-- card -->    
+                <div class="card card-products text-center" style="background-color: rgb(253, 204, 211);">
+                    <a href="#"><div class="card-img-top img-products img-6 rounded-2"></div></a>
+                    <div class="card-body">
+                        <h5 class="card-title bg-dark bg-gradient text-white p-1 rounded-2 shadow-lg">Correas y Collares  </h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
+
+
+    <!-- SECCION SERVICIOS -->
+    <section class="section-servicios-container m-0">
+        <div class="bg-light m-5 p-1 rounded-1">
+            <div>SERVICIOS</div>
+        </div>
+       
+        
+        <div class="card">
+            <div class="section-servicios-container-subcontainer">
+                <div class="section-servicios-container-subcontainer-izq">
+                    <div class="card-body">
+                        <h5 class="card-title bg-light rounded-1 p-2">HAZ TU CITA</h5>
+                        <p class="card-text bg-light rounded-1 p-2">
+                            Nuestros expertos se encargaran de darle a tu mascota el cuidado que se merece , por eso te invitamos a que agendes una cita
+                        </p>
+                        <button class="btn btn-light">AGENDAR</button>
+                    </div>
+                </div>
+                <img class="section-servicios-container-img" src="./img/ducha.png" class="img-fluid rounded-start" alt="...">
+            </div>
+        </div>
+
+    </section>
     
     <!-- ACA ABAJO ESTAN LOS CDN DE LAS LIBRERIAS (AOS Y BOOTSRAP (JS CDN) ) -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
