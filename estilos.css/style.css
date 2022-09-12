@@ -28,11 +28,21 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 .altura-a-b {
   padding: 100px 0;
 }
-
 .titulo_hero {
   font-family: jeenull;
   font-size: 5rem;
 }
+.parrafo_hero {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.56rem;
+  width: 50%;
+}
+.titulo_hero_2 {
+  font-family: jeenull;
+  font-size: 5rem;
+}
+
 .carousel-caption {
   position: absolute;
   top: 25%;
@@ -69,25 +79,112 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   width: 50px;
 }
 
-.parrafo_hero {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 25px;
-  width: 50%;
-}
 .btn {
-  margin-top: 70px;
+  margin-top: 4.37rem;
   margin-left: 15%;
   align-items: center;
   color: #f5f8fb;
   border: solid #f5f8fb;
 }
-/* .texto_descriptivo {
-  top: 1rem;
+.btn:hover {
+  background-color: rgb(7, 6, 12, 0.7);
+}
+.img_somos {
+  filter: drop-shadow(4px 6px 12px black);
+  border-radius: 2rem;
+}
+
+.texto_descriptivo {
+  padding: 2rem;
+  text-align: center;
 }
 .contenedor_somos {
   position: relative;
 }
 .titulo_somos {
-  margin-bottom: 2rem;
-} */
+  font-family: jeenull;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .btn {
+    margin-top: auto;
+  }
+  .titulo_hero_2 {
+    margin: auto;
+    font-size: 2rem;
+  }
+  .parrafo_hero {
+    margin-top: 0.25rem;
+    margin-left: 2rem;
+  }
+  .titulo_somos {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
+  .altura-a-b {
+    padding: 40px 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .titulo_hero {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  .parrafo_hero {
+    font-size: 0.75em;
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+    margin-bottom: 0rem;
+    width: 25rem;
+  }
+
+  .btn {
+    margin-left: 7rem;
+    margin-top: 1rem;
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .titulo_hero {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  .parrafo_hero {
+    font-size: 0.75em;
+    width: 20rem;
+  }
+
+  .btn {
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+  }
+  .altura-a-b {
+    padding: 40px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .logotipo {
+    margin-left: 1.5rem;
+  }
+  .titulo_hero {
+    margin-top: 0.1rem;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+  }
+  .parrafo_hero {
+    margin-top: 0.5rem;
+    font-size: 0.5em;
+    width: 20rem;
+  }
+  .btn {
+    margin-left: 6rem;
+    margin-top: 0.4rem;
+    font-size: 0.3rem;
+    padding: 0.5rem;
+  }
+}
