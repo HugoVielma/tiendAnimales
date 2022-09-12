@@ -34,19 +34,19 @@
 }
 
 /** productos **/
-.section-products {background-image: url(./img/playing-puppies-g56a7ca33f_1920.jpg); background-size: cover;}
+.section-products {background-image: url(../img/playing-puppies-g56a7ca33f_1920.jpg); background-size: cover;}
 .card-products {box-shadow: 0px 10px 20px -1px #000}
 .container-products {display: flex; justify-content: space-evenly; flex-wrap: wrap;}
 .img-products:hover {transform: translateY(-3px); box-shadow: 0px 5px 15px -5px #000;}
-.img-1 {background-image: url(./img/cat-food.png); background-position: center; background-size: cover;}
-.img-2 {background-image: url(./img/perro-salchica.png); background-position: center; background-size: cover;}
-.img-3 {background-image: url(./img/snacks.png); background-position: center; background-size: cover;}
-.img-4 {background-image: url(./img/toys.png); background-size: cover;}
-.img-5 {background-image: url(./img/platito.png); background-position: center; background-size: cover;}
-.img-6 {background-image: url(./img/correa.png); background-size: cover;}
+.img-1 {background-image: url(../img/cat-food.png); background-position: center; background-size: cover;}
+.img-2 {background-image: url(../img/perro-salchica.png); background-position: center; background-size: cover;}
+.img-3 {background-image: url(../img/snacks.png); background-position: center; background-size: cover;}
+.img-4 {background-image: url(../img/toys.png); background-size: cover;}
+.img-5 {background-image: url(../img/platito.png); background-position: center; background-size: cover;}
+.img-6 {background-image: url(../img/correa.png); background-size: cover;}
 
 /** servicios **/
-.section-servicios-container {background-image: url(./img/p.png); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;}
+.section-servicios-container {background-image: url(../img/p.png); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;}
 .section-servicios-container-subcontainer {background-color: rgb(253, 204, 211); display: flex; justify-content: center; align-items: center;}
 
 
