@@ -1,37 +1,5 @@
-/* Paleta de colores
-#BFC23F acid green
-#EF323E imperial red
-#FF7711 pumpkin */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.logotipo {
-  width: 250px;
-}
-.color_fondo {
-  background-color: #ff7711;
-}
-.icon {
-  width: 30px;
-  margin: 10px 5px;
-}
-.altura-a-b {
-  padding: 100px 0;
-}
-.carousel-caption {
-  position: absolute;
-  top: 40%;
-  bottom: 20px;
-  left: 2.5%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: #fff;
-  text-align: left;
-}
+h1 , h2 , h3 , h4 , h5 , h6 , p , ul , li , a {padding: 0px; margin: 0px;}
 
 /** productos **/
 .section-products {background-image: url(../img/playing-puppies-g56a7ca33f_1920.jpg); background-size: cover;}
@@ -46,7 +14,7 @@
 .img-6 {background-image: url(../img/correa.png); background-size: cover;}
 
 /** servicios **/
-.section-servicios-container {background-image: url(../img/p.png); display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;}
+.section-servicios-container {background-image: url(../img/p.png); display: flex; flex-direction: column; align-items: center; justify-content: center;}
 .section-servicios-container-subcontainer {background-color: rgb(253, 204, 211); display: flex; justify-content: center; align-items: center;}
 
 
@@ -60,51 +28,51 @@
     .card-title {font-size: 15px;}
 
     /** servicios **/
-    .section-servicios-container {padding: 20px; margin: 10px; text-align: center;}
+    .section-servicios-container {padding: 30px; margin: 0px; text-align: center;}
     .section-servicios-container-subcontainer {flex-direction: column;}
     .section-servicios-container-img {height: 100%; width: 100%; padding: 10px;}
 }
 
 /** TABLET **/
 @media screen and (min-width: 580px) {
-    /*PRODUCTOS*/
-    .section-products-title {font-size: 15px;}
-    .card-products {width: 30vw; padding: 5px; margin: 10px;}
-    .card-img-top {height: 20vh;}
-    .card-title {font-size: 15px;}
+  /*PRODUCTOS*/
+  .section-products-title {font-size: 15px;}
+  .card-products {width: 30vw; padding: 5px; margin: 10px;}
+  .card-img-top {height: 20vh;}
+  .card-title {font-size: 15px;}
 
   /** servicios **/
-  .section-servicios-container {margin: 10px; text-align: center;}
+  .section-servicios-container {padding-bottom: 40px; margin: 10px; text-align: center;}
   .section-servicios-container-subcontainer {flex-direction: row;}
-  .section-servicios-container-subcontainer-izq {width: 24vw;}
+  .section-servicios-container-subcontainer-izq {width: 40vw;}
   .section-servicios-container-img {height: 50vh; width: 40vw;}
 }
 
 /** TABLET **/
 @media screen and (min-width: 760px) {
-    /*PRODUCTOS*/
-    .section-products-title {font-size: 15px;}
-    .card-products {width: 50vw; padding: 5px; margin: 10px;}
-    .card-img-top {height: 15vh;}
-    .card-title {font-size: 15px;}
+  /*PRODUCTOS*/
+  .section-products-title {font-size: 15px;}
+  .card-products {width: 30vw; padding: 5px; margin: 10px;}
+  .card-img-top {height: 25vh;}
+  .card-title {font-size: 15px;}
 
   /** servicios **/
   .section-servicios-container {margin: 10px; text-align: center;}
   .section-servicios-container-subcontainer {flex-direction: row;}
   .section-servicios-container-subcontainer-izq {width: 30vw;}
-  .section-servicios-container-img {height: 30vh; width: 50vw;}
+  .section-servicios-container-img {height: 50vh; width: 40vw;}
 }
 
 /** LAPTOP **/
 @media screen and (min-width: 1024px) {
-    /*PRODUCTOS*/
-    .section-products-title {font-size: 15px;}
-    .card-products {width: 21vw; padding: 5px;}
-    .card-img-top {height: 25vh;}
-  
+  /*PRODUCTOS*/
+  .section-products-title {font-size: 15px;}
+  .card-products {width: 21vw; padding: 5px;}
+  .card-img-top {height: 25vh;}
+
 
   /** servicios **/
-  .section-servicios-container {margin: 10px; text-align: center;}
+  .section-servicios-container {text-align: center;}
   .section-servicios-container-subcontainer {flex-direction: row;}
   .section-servicios-container-subcontainer-izq {width: 20vw;}
   .section-servicios-container-img {height: 50vh; width: 40vw;}
