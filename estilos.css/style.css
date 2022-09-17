@@ -6,10 +6,15 @@
 /* rgb(0, 205, 247) azul */
 /*#90D623 
 la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupamos por eso*/
+/* font-family: Poppins,sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Oswald:wght@400;700&family=Poppins:wght@200&family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.html {
+  scroll-behavior: smooth;
 }
 .logotipo {
   width: 250px;
@@ -18,12 +23,25 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   background-color: #ff7711;
 }
 .nav-link {
+  margin-left: 2rem;
   color: white;
   font-size: 1.5rem;
 }
-.icon {
+.icon1 {
   width: 30px;
   margin: 10px 5px;
+}
+.icon2 {
+  width: 30px;
+  margin: 10px 5px;
+}
+.icon1:hover {
+  background-color: red;
+  border-radius: 0.5rem;
+}
+.icon2:hover {
+  background-color: blue;
+  border-radius: 0.5rem;
 }
 .altura-a-b {
   padding: 100px 0;
@@ -37,6 +55,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   margin-bottom: 1rem;
   font-size: 1.56rem;
   width: 50%;
+  font-weight: 700;
 }
 .titulo_hero_2 {
   font-family: jeenull;
@@ -44,7 +63,6 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 }
 
 .carousel-caption {
-  position: absolute;
   top: 25%;
   bottom: 1.25rem;
   left: 15%;
@@ -62,7 +80,6 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 }
 .carousel-control-next,
 .carousel-control-prev {
-  position: absolute;
   bottom: 0;
   z-index: 1;
   display: flex;
@@ -121,6 +138,8 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   .parrafo_hero {
     margin-top: 0.25rem;
     margin-left: 2rem;
+    font-size: 1rem;
+    font-family: ;
   }
   .titulo_somos {
     margin-top: 1rem;
@@ -174,10 +193,11 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   .titulo_hero {
     margin-top: 0.1rem;
     margin-left: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .parrafo_hero {
     margin-top: 0.5rem;
+    margin-left: 1rem;
     font-size: 0.5em;
     width: 20rem;
   }
@@ -186,5 +206,10 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
     margin-top: 0.4rem;
     font-size: 0.3rem;
     padding: 0.5rem;
+  }
+  @media (hover: hover) {
+    .btn:hover {
+      background-color: rgb(7, 6, 12, 0.7);
+    }
   }
 }
