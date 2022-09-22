@@ -99,12 +99,24 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 .btn {
   margin-top: 4.37rem;
   margin-left: 15%;
-  align-items: center;
   color: #f5f8fb;
   border: solid #f5f8fb;
 }
 .btn:hover {
   background-color: rgb(7, 6, 12, 0.7);
+}
+.btn_peluqueria {
+  color: #ff7711;
+  border: solid #ff7711;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+.btn_peluqueria:hover {
+  background-color: #ff7711;
+  color: white;
 }
 .img_somos {
   filter: drop-shadow(4px 6px 12px black);
@@ -124,6 +136,11 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   margin-bottom: 0.5rem;
   font-size: 3rem;
 }
+
+.instruccion {
+  padding: 2rem;
+  text-align: center;
+}
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px;
@@ -139,7 +156,6 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
     margin-top: 0.25rem;
     margin-left: 2rem;
     font-size: 1rem;
-    font-family: ;
   }
   .titulo_somos {
     margin-top: 1rem;
