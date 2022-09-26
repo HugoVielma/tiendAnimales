@@ -1,6 +1,0 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-body , section {padding: 0px; margin: 0px;}
-
-/* img y text size --> responsive hacer */
-.card-img-products {height: 30vh; width: 40vw;}
-.card-img {height: 100%; width: 100%;}
