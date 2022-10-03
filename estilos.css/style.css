@@ -95,29 +95,44 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   transition: opacity 0.15s ease;
   width: 50px;
 }
-
-.btn {
-  margin-top: 4.37rem;
+.contenedor_hero {
+  position: relative;
+}
+.boton_producto {
+  position: absolute;
+  text-decoration: none;
+  padding: 1rem;
   margin-left: 15%;
   color: #f5f8fb;
   border: solid #f5f8fb;
+  border-radius: 1rem;
+  font-weight: 700;
 }
-.btn:hover {
-  background-color: rgb(7, 6, 12, 0.7);
+.boton_producto:hover {
+  color: black;
+  background-color: #ff7711;
 }
-.btn_peluqueria {
+.boton_peluqueria {
   color: #ff7711;
+  margin: 0 auto;
+  width: fit-content;
   border: solid #ff7711;
   border-radius: 0.5rem;
-  text-decoration: none;
-  display: inline-block;
   padding: 0.5rem;
   font-weight: 600;
 }
-.btn_peluqueria:hover {
-  background-color: #ff7711;
-  color: white;
+
+.boton_cita {
+  color: #ff7711;
+  text-decoration: none;
 }
+.boton_cita:hover {
+  color: black;
+}
+.boton_selecion {
+  color: black;
+}
+
 .img_somos {
   filter: drop-shadow(4px 6px 12px black);
   border-radius: 2rem;
@@ -136,6 +151,9 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   margin-bottom: 0.5rem;
   font-size: 3rem;
 }
+.citas_bc {
+  position: relative;
+}
 
 .instruccion {
   padding: 2rem;
@@ -145,8 +163,9 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   body {
     font-size: 14px;
   }
-  .btn {
+  .boton_producto {
     margin-top: auto;
+    padding: 0.5rem;
   }
   .titulo_hero_2 {
     margin: auto;
@@ -160,7 +179,24 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   .titulo_somos {
     margin-top: 1rem;
     margin-bottom: 0rem;
+    font-size: 1.5rem;
   }
+  .texto_descriptivo {
+    font-size: 0.6rem;
+  }
+  .instruccion {
+    font-size: 0.6rem;
+  }
+  .boton_peluqueria {
+    color: #ff7711;
+    margin: 0 auto;
+    width: fit-content;
+    border: solid #ff7711;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    font-weight: 600;
+  }
+
   .altura-a-b {
     padding: 40px 0;
   }
@@ -178,7 +214,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
     width: 25rem;
   }
 
-  .btn {
+  .boton_producto {
     margin-left: 7rem;
     margin-top: 1rem;
     font-size: 0.5rem;
@@ -194,7 +230,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
     width: 20rem;
   }
 
-  .btn {
+  .boton_producto {
     margin-left: 6rem;
     margin-top: 0.5rem;
   }
@@ -217,14 +253,14 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
     font-size: 0.5em;
     width: 20rem;
   }
-  .btn {
+  .boton_producto {
     margin-left: 6rem;
     margin-top: 0.4rem;
     font-size: 0.3rem;
     padding: 0.5rem;
   }
   @media (hover: hover) {
-    .btn:hover {
+    .boton_producto {
       background-color: rgb(7, 6, 12, 0.7);
     }
   }
