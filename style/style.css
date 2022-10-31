@@ -7,6 +7,53 @@
 /*#90D623 
 la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupamos por eso*/
 /* font-family: Poppins,sans-serif; */
+
+
+
+
+
+body, ul { padding: 0px; margin: 0px; }
+ul { list-style: none; }
+
+
+
+.footer {
+  display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center;
+  background-color: #ff7711; box-shadow: 0px -3px 10px -5px #ffff;
+  padding-top: 5rem; padding-bottom: 5rem;
+}
+
+.list li {
+  padding: 5px; margin: 10px;
+  text-align: center;
+}
+.list li a { color: #ffff; }
+
+.footer-img { height: 10rem; }
+
+@media screen and (max-width: 700px) {
+  .footer { flex-direction: column; flex-wrap: nowrap; gap: 7vh; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&family=Oswald:wght@400;700&family=Poppins:wght@200&family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap");
 * {
   margin: 0;
