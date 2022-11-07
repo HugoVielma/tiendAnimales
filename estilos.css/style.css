@@ -111,6 +111,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 .boton_producto:hover {
   color: black;
   background-color: #ff7711;
+  text-decoration: none;
 }
 .boton_peluqueria {
   color: #ff7711;
@@ -156,7 +157,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
 }
 
 .instruccion {
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
@@ -242,6 +243,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   .logotipo {
     margin-left: 1.5rem;
   }
+
   .titulo_hero {
     margin-top: 0.1rem;
     margin-left: 1.5rem;
@@ -262,6 +264,7 @@ la fuenta aun no la definimos pienso que ya al tener la estructura, nos preocupa
   @media (hover: hover) {
     .boton_producto {
       background-color: rgb(7, 6, 12, 0.7);
+      text-decoration: none;
     }
   }
 }
